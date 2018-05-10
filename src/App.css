@@ -1,0 +1,166 @@
+/* 
+#BFD8D2 = powder
+#FEDCD2 = peach
+#DF744A = warm
+#DCB239 = lemon
+black
+
+#60448F = blue-magenta violet
+#712527 = prune
+#DCAFD0 = pink lavender
+#D5ED15 = arctic lime
+#DOBB9E = dark vanilla
+
+other colors
+#331832 = violet
+#694D75 = light violet
+#1B5299 = royal blue
+#9FC2CC = grayish blue
+#F1ECCE = cream
+*/
+
+/* font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Lekton', sans-serif; */
+
+body {
+  background-color: #BFD8D2;
+}
+
+
+/* get in touch */
+.getInTouchTitle {
+  margin: 5%;
+  text-align: center;
+  font-family: 'Lekton', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #DF744A;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  float: left;
+  padding: 20px;
+  
+}
+
+/* portfolio */
+.portfolioTitle {
+  margin: 5%;
+  text-align: center;
+  font-family: 'Lekton', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #DF744A;
+}
+
+/* skills */
+.skillsTitle {
+  margin: 5%;
+  text-align: center;
+  font-family: 'Lekton', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #DF744A;
+}
+
+.skillsIcons {
+  text-align: center;
+  padding: 5%;
+  float: left;
+}
+
+/* home */
+.text {
+  font-family: 'Lekton', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 5%;
+}
+
+.color {
+ color: #DF744A;
+}
+
+.top-navbar-right {
+  margin-left: auto;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.top-navbar-right > a {
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+}
+
+.background {
+  /* opacity: .5; */
+  background-color: 	rgba(191, 216, 210, .75);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.top-navbar {
+  background-color: white;
+  height: 10px;
+  padding: 2em;
+  opacity: 0.9;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  /* position: fixed; */
+  /* border-bottom: 10px solid #6044AF; */
+}
+
+.top-navbar-left > a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.5em;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 15s linear; */
+  height: 80px;
+  color: #DCAFD0;
+}
+
+.App-header {
+  background-color: #331832;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

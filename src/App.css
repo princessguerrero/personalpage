@@ -70,9 +70,28 @@ body {
 }
 
 .skillsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 60px;
+}
+
+.iconText {
   text-align: center;
-  padding: 5%;
-  float: left;
+}
+
+.eachIcon {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+  height: 100px;
+  padding: 30px;
+  /* width: 300px; */
+}
+
+.skillsimg {
+  height: 100px;
 }
 
 /* home */

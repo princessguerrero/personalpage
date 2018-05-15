@@ -14,37 +14,34 @@ class Skills extends Component {
       <div>
         <div className="skillsTitle">Skills</div>
         <div className="skillsIcons">
-          <div className="icon">
-          <p>Javascript</p>
-            <img src={JSimg} alt="JS image" width="8%" />
-            
+          <div className="eachIcon">
+            <p className="iconText">Javascript</p>
+            <img src={JSimg} alt="JS image" className="skillsimg" />
           </div>
-          <div>
-          <p>ReactJS</p>
-            <img src={Reactimg} alt="ReactJS" width="8%" />
-          
+          <div className="eachIcon">
+            <p className="iconText">ReactJS</p>
+            <img src={Reactimg} alt="ReactJS" className="skillsimg"/>
           </div>
-          <div>
-              <p>HTML5</p>
-            <img src={HTML5} alt="HTML5" width="9%" />
-          
+          <div className="eachIcon">
+            <p className="iconText">HTML5</p>
+            <img src={HTML5} alt="HTML5" className="skillsimg" />
           </div>
-          <div>
-              <p>CSS3</p>
-            <img src={CSS3} alt="CSS3" width="6.4%" />
+          <div className="eachIcon">
+            <p className="iconText">CSS3</p>
+            <img src={CSS3} alt="CSS3" className="skillsimg" />
           </div>
-        </div>
-
-        <div className="skillsIcons">
-          
-            <img src={Nodeimg} alt="NodeJS" width="12%" />
-          
-          
-            <img src={Gitlogo} alt="Github" width="8%" />
-          
-          
-            <img src={Postgresimg} alt="postgreSQL" width="8%" />
-          
+          <div className="eachIcon">
+            <p className="iconText">Node</p>
+            <img src={Nodeimg} alt="NodeJS" className="skillsimg" />
+          </div>
+          <div className="eachIcon">
+            <p className="iconText">Git/Github</p>
+            <img src={Gitlogo} alt="Github" className="skillsimg" />
+          </div>
+          <div className="eachIcon">
+            <p className="iconText">PostgreSQL</p>
+            <img src={Postgresimg} alt="postgreSQL" className="skillsimg" />
+          </div>
         </div>
       </div>
     );

@@ -95,16 +95,52 @@ body {
 }
 
 /* home */
+.deskImg {
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  /* margin-top: 4%; */
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
 .text {
   font-family: 'Lekton', sans-serif;
   text-align: center;
-  font-size: 2em;
-  font-weight: bold;
-  margin: 5%;
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  margin-top: 2%;
 }
 
-.color {
- color: #DF744A;
+.buttontext {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 1%;
+  border-radius: 20px;
+}
+
+.buttontext a {
+  text-decoration: none;
+  color: darkgreen;
+
+}
+
+.peachcolor {
+ color: #df744a;
+}
+
+.bigtext {
+  font-size: 2.5em;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .top-navbar-right {
@@ -117,6 +153,7 @@ body {
   text-decoration: none;
   color: black;
   padding-left: 30px;
+  /* padding-right: 30px; */
 }
 
 .background {
@@ -129,15 +166,18 @@ body {
 }
 
 .top-navbar {
-  background-color: white;
-  height: 10px;
-  padding: 2em;
+  
+  width: 97%;
+  /* background-color: white; */
+  /* height: 5px; */
+  /* padding: 2em; */
   opacity: 0.9;
   font-size: 18px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   flex-direction: row;
+  margin: 15px;
   /* position: fixed; */
   /* border-bottom: 10px solid #6044AF; */
 }
@@ -148,6 +188,13 @@ body {
   color: black;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.5em;
+/* padding-left: 10px; */
+}
+
+.top-navbar-left-img {
+  display: flex;
+  justify-content: center;
+  width: 70%;
 }
 
 .App {
@@ -181,5 +228,52 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* ------ Media Queries ------ */
+@media screen and (max-width: 730px) {
+  .top-navbar-left {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .top-navbar {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .top-navbar-left{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .top-navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top-navbar {
+    font-size: 14px;
+  }
+
+  /* .bigtext {
+    font-size: 2em;
+  }
+
+  .text {
+    font-size: 20px;
+  } */
+
+  .buttontext {
+    font-size: 25px;
   }
 }

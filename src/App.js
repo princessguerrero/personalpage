@@ -7,6 +7,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import GetInTouch from "./components/GetInTouch";
+import mylogo from "./images/mylogo.png"
 
 class App extends Component {
   render() {

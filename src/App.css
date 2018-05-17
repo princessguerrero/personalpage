@@ -26,6 +26,35 @@ body {
   background-color: #BFD8D2;
 }
 
+/* about */
+.aboutTitle {
+  margin: 5%;
+  text-align: center;
+  font-family: 'Lekton', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #DF744A;
+}
+
+.piccontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  width: 100%;
+}
+
+.centeredAbout {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Lekton', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
 
 /* get in touch */
 .getInTouchTitle {
@@ -247,6 +276,10 @@ body {
   .top-navbar {
     font-size: 16px;
   }
+  .centeredAbout {
+    font-size: 16px;
+    top: 60%;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -275,5 +308,10 @@ body {
 
   .buttontext {
     font-size: 25px;
+  }
+
+  .centeredAbout {
+    font-size: 14px;
+    top: 55%;
   }
 }

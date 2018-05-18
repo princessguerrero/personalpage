@@ -11,16 +11,16 @@ class GetInTouch extends Component {
             <i class="far fa-3x fa-file-alt" />{" "}
           </div>
           <div className="icon">
-            <i class="fab fa-3x fa-linkedin-in" />
+            <a href="https://www.linkedin.com/in/princess-guerrero/" target="_blank"><i class="fab fa-3x fa-linkedin-in" /></a>
           </div>
           <div className="icon">
-            <i class="fab fa-3x fa-twitter" />
+            <a href="https://twitter.com/princessg814" target="_blank"><i class="fab fa-3x fa-twitter" /></a>
           </div>
           <div className="icon">
-            <i class="fab fa-3x fa-github" />
+            <a href="https://github.com/princessguerrero" target="_blank"><i class="fab fa-3x fa-github" /></a>
           </div>
           <div className="icon">
-            <i class="far fa-3x fa-envelope" />{" "}
+            <a href="mailto:princessguerrero@ac.c4q.nyc"><i class="far fa-3x fa-envelope" /></a>{" "}
           </div>
         </div>
       </div>

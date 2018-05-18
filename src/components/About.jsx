@@ -26,7 +26,7 @@ class About extends Component {
             Because of that I became passionate about childhood development. I
             realized that if I learn how to code, not only will I have a career
             in tech but also be able to build products that are helpful for
-            individuals in the Autism spectrum and their caregivers.
+            individuals in the Autism Spectrum and their caregivers.
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import Reactimg from "../images/reactsym.png";
 import HTML5 from "../images/html5transparent.png";
 import Nodeimg from "../images/nodejs-512.png";
 import Gitlogo from "../images/gitlogo.png";
+import Github from "../images/github.png";
 import Postgresimg from "../images/postgresqlblue.png";
 
 class Skills extends Component {
@@ -35,8 +36,12 @@ class Skills extends Component {
             <img src={Nodeimg} alt="NodeJS" className="skillsimg" />
           </div>
           <div className="eachIcon">
-            <p className="iconText">Git/Github</p>
-            <img src={Gitlogo} alt="Github" className="skillsimg" />
+            <p className="iconText">Git</p>
+            <img src={Gitlogo} alt="Git" className="skillsimg" />
+          </div>
+          <div className="eachIcon">
+            <p className="iconText">Github</p>
+            <img src={Github} alt="Github" className="skillsimg" />
           </div>
           <div className="eachIcon">
             <p className="iconText">PostgreSQL</p>

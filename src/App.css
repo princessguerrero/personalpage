@@ -26,6 +26,17 @@ body {
   background-color: #BFD8D2;
 }
 
+a:link, 
+a:visited,
+a:active {
+  color: black;
+}
+
+a:hover {
+  color:#df744a;
+}
+
+
 /* about */
 .aboutTitle {
   margin: 5%;

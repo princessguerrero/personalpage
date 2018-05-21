@@ -8,18 +8,15 @@ import { Route, Link, Switch, Redirect } from "react-router-dom";
 class Home extends Component {
   render() {
     return (
-      <div>
-        <div>
+        <div className="home">
         <img src={ResizedDeskImg} alt="desk" className="deskImg" />
 
           <div className="text peachcolor bigtext">
             Princess Guerrero
           </div>
           <div className="text">Full Stack Web Developer</div>
-          <div className="buttontext"><button className="buttontext"><a href="/about" >Welcome</a></button></div>
-
+          <button className="buttontext"><a href="https://drive.google.com/file/d/1322cTsGYjq9czT5b-PcrbKialxiSxKYX/view?usp=sharing">Resume</a></button>
         </div>
-      </div>
     );
   }
 }

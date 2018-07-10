@@ -15,7 +15,7 @@ class Home extends Component {
             Princess Guerrero
           </div>
           <div className="text">Full Stack Web Developer</div>
-          <button className="buttontext"><a href="https://drive.google.com/file/d/1322cTsGYjq9czT5b-PcrbKialxiSxKYX/view?usp=sharing">Resume</a></button>
+          <button className="buttontext"><a href="https://docs.google.com/document/d/1FLpMkeUO3BfivEqiZMpgtBgrQ2D72SNRx1q36Qk2jkA/edit?usp=sharing">Resume</a></button>
         </div>
     );
   }

@@ -20,13 +20,11 @@ class About extends Component {
           </div>
           <div className="centeredAbout">
             I am a web developer living in New York City and before diving into
-            web development, I was a stay-at-home mom. In trying to connect with
-            my child I learned that he was not reaching his milestones. He had
-            challenges other kids did not have. Because of that I became
-            passionate about childhood development and I realized that if I
-            learn how to code, not only will I have a career in tech but also be
-            able to build products that are helpful for individuals in the
-            Autism Spectrum and their caregivers.
+            programming, I was a stay-at-home mom. Having a child with Autism, I
+            became passionate about childhood development and decided to embark
+            on a journey to learn how to code. I realized that with the skills I
+            will gain not only will I have a career in tech, but also be able to
+            build meaningful products that have real-world impact.
           </div>
         </div>
       </div>

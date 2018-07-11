@@ -358,8 +358,7 @@ button:hover {
 @media screen and (max-width: 590px) {
   .top-navbar-left{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
   }
 
   .top-navbar-right {
@@ -371,13 +370,14 @@ button:hover {
     font-size: 14px;
   }
 
-  /* .bigtext {
-    font-size: 2em;
+  /* home */
+  .deskImg {
+    height: 30%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-top: 4%; */
   }
-
-  .text {
-    font-size: 20px;
-  } */
 
   .buttontext {
     font-size: 25px;

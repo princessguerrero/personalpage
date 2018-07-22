@@ -8,7 +8,7 @@ class GetInTouch extends Component {
         <div className="getInTouchTitle">Get In Touch</div>
         <div className="container">
           <div className="icon">
-            <a href="https://drive.google.com/file/d/1322cTsGYjq9czT5b-PcrbKialxiSxKYX/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1zH9Lr9-DOW4L_fUG_x4oDt3wa1JYe2Ou/view?usp=sharing">
               <i class="far fa-3x fa-file-alt" />
             </a>
           </div>

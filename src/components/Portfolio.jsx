@@ -28,12 +28,10 @@ class Portfolio extends Component {
             </div>
             <img src={Featherspic} className="projectpic" />
             <p className="bottomdesc">
-              A travel buddy finder for women. We used a <br />
-              matching algorithm to find compatible companions.
+              A travel buddy finder for women. We used a matching algorithm to find compatible companions.
             </p>
             <p className="bottomstack">
-              ReactJS, Express, HTML5, CSS3, <br />
-              PostgreSQL
+              ReactJS, Express, HTML5, CSS3, PostgreSQL
             </p>
           </div>
           <div className="eachprojpicdiv">
@@ -54,11 +52,10 @@ class Portfolio extends Component {
             </div>
             <img src={PuzzleBox} className="projectpic" />
             <p className="bottomdesc">
-              An online organizer for caregivers of children with special<br/>
-              needs
+              An online organizer for caregivers of children with special needs.
             </p>
             <p className="bottomstack">
-              ReactJS, Express, HTML5, CSS3, <br />
+              ReactJS, Express, HTML5, CSS3,
               PostgreSQL
             </p>
           </div>
@@ -76,12 +73,11 @@ class Portfolio extends Component {
             </div>
             <img src={GreenEbt} className="projectpic" />
             <p className="bottomdesc">
-              A guide to New York City Farmers' Markets <br /> that accept EBT
+              A guide to New York City Farmers' Markets that accept EBT
               cards.
             </p>
             <p className="bottomstack">
-              ReactJS, Express, HTML5, CSS3, <br />
-              Google Maps, NYC Open Data
+              ReactJS, Express, HTML5, CSS3, Google Maps, NYC Open Data
             </p>
           </div>
           <div className="eachprojpicdiv">
@@ -96,12 +92,10 @@ class Portfolio extends Component {
             </div>
             <img src={InstagramClone} className="projectpic" />
             <p className="bottomdesc">
-              A clone of Instagram with user authentication, feed,
-              <br /> follower/following functionality,{" "}
+              A clone of Instagram with user authentication, feed and follower/following functionality.
             </p>
             <p className="bottomstack">
-              ReactJS, Express, HTML5, CSS3 <br />
-              PostgreSQL
+              ReactJS, Express, HTML5, CSS3, PostgreSQL
             </p>
           </div>
         </div>

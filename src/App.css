@@ -102,7 +102,9 @@ a:hover {
 .projectscontainer {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  width: 100vw;
 }
 
 .eachprojpicdiv {
@@ -110,6 +112,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   height: 350px;
+  width: 400px;
   padding: 30px;
   margin: 40px;
   background-color: whitesmoke;
@@ -142,10 +145,12 @@ a:hover {
 
 .bottomdesc {
   text-align: center;
+  flex: wrap;
 }
 
 .bottomstack {
   text-align: center;
+  flex: wrap;
   color: #df744a;
 }
 /* skills */
@@ -353,6 +358,19 @@ button:hover {
     font-size: 16px;
     top: 60%;
   }
+  .eachprojpicdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30%;
+    width: 80%;
+    padding: 30px;
+    margin: 40px;
+    background-color: whitesmoke;
+    border-radius: 4%;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+  }
+  
 }
 
 @media screen and (max-width: 590px) {

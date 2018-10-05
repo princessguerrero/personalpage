@@ -31,7 +31,7 @@ class GetInTouch extends Component {
             </a>
           </div>
           <div className="icon">
-            <a href="mailto:princessguerrero@ac.c4q.nyc">
+            <a href="mailto:princessguerrero@pursuit.org">
               <i class="far fa-3x fa-envelope" />
             </a>{" "}
           </div>
